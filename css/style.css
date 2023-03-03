@@ -1,0 +1,93 @@
+table{
+    display: none;
+}
+img{
+    height: 300px !important;
+    
+}
+li{
+    list-style: none;
+}
+.card .card-body a:last-child{
+    position: absolute ;
+    right: 15px;
+    
+   
+}
+button, .alert{
+    visibility: hidden;
+    
+}
+:root{
+    --main-color:#fd4646;
+    --text-color:#171427;
+    --bg-color:#fff;
+}
+.div{
+    width: 50%; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+table{
+    width: auto !important;
+     padding: 0 60px;
+}
+th, tr{
+    padding: 0 90px !important;
+    text-align: center;
+}
+.nav-link{
+    font-size: 22px;
+    color: rgba(128, 128, 128, 0.795);
+}
+.logo{
+    font-weight: 500;
+    font-size: 25px;
+}
+.padding{
+   padding-top: 45px;
+}
+i{
+    font-size: 22px;
+}
+/* header */
+.container{
+    max-width: 1069px;
+    width: 100%;
+    margin: auto;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow:0 1px 4px hsl(0 4% 15% /10%) ;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    place-items: center;
+    justify-content:space-between;
+    padding: 20px 0;
+}
+
+span.hidden{
+    bottom: -60%;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color:#171427;
+    list-style: none;
+    cursor: pointer;
+}
+
+@media (max-width:576px) {
+ .alert-mobile{
+    width: 80%;
+ }   
+}
